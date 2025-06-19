@@ -134,7 +134,7 @@ int main(){
         for (int j = 0; titulo[i][j] != '\0'; j++) {
             printf(BHCYN "%c", titulo[i][j]);
             fflush(stdout);     // força a impressão imediata do caractere
-            Sleep(0);          // espera 50 milissegundos entre cada caractere
+            Sleep(1);          // espera 1 milissegundo entre cada caractere
             }
         printf("\n");
         }
